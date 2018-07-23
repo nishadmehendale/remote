@@ -1,0 +1,14 @@
+
+class base1 {
+	base1(int i){
+		System.out.println("Number is"+i);
+	}
+}
+class sub1 extends base1{
+	sub1(int i){
+		System.out.println("Number is"+i);
+	}
+	sub1(int i,int j){
+		System.out.println("Number is"+i+" and "+j);
+	}
+}

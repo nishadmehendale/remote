@@ -1,0 +1,20 @@
+class A(){
+	A() {
+		System.out.println("A");
+	}
+}
+
+class B() {
+	B() {
+		System.out.println("A");
+	}
+}
+
+public class SingleLevelInheritance {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

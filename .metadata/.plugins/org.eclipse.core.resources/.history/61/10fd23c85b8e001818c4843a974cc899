@@ -1,0 +1,16 @@
+
+public class GenerateEmployeeID {
+	private int employeeID = 0;
+	private static int lastEmployeeID = 100000;
+	public GenerateEmployeeID() {
+		
+		employeeID = lastEmployeeID + 1;
+		lastEmployeeID = employeeID;
+	}
+	public static int getNextEmployeeID() {
+		return lastEmployeeID;
+	}
+	public int getEmployeeID() {
+		return employeeID;
+	}
+}

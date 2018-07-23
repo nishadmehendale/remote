@@ -1,0 +1,33 @@
+
+public class TestTelevision {
+	public static void main(String args[])
+	{
+		int channel,volume;
+		Television television = new Television();
+		
+		//Turnong ON TV
+		System.out.println(television);
+		television.setState(true);
+		System.out.println("Turning ON TV");
+		System.out.println(television);
+		
+		//Changing volume
+		System.out.println("Changing the volume");
+		television.setCurrentVolume(40);
+		System.out.println(television);
+		television.setCurrentVolume(35);
+		
+		//Changing the channel
+		channel = television.getCurrentChannel();
+		System.out.println("Current Channel is "+channel);
+		television.setCurrentChannel(203);
+		channel = television.getCurrentChannel();
+		System.out.println("Current Channel is "+channel);
+		System.out.println(television);
+		
+		//Turning OFF TV 
+		System.out.println("Turning OFF TV");
+		television.setState(false);
+		System.out.println(television);
+	}
+}

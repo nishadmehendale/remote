@@ -1,0 +1,4 @@
+
+public class GenerateEmployeeID {
+	private static int lastEmployeeID = 0;
+}

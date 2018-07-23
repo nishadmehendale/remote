@@ -1,0 +1,16 @@
+class A(){
+	A() {
+		System.out.println("A");
+	}
+}
+class B() {
+	
+}
+public class SingleLevelInheritance {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

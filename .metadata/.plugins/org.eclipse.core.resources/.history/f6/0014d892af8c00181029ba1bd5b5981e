@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Person {
+	private String name;
+	private Date dob;
+	
+	public Person(String n, int d, int m, int y)
+	{
+		name = n;
+		Date this.dob = new Date(y,m,d); 
+	}
+	public void display()
+	{
+		System.out.println("Name: " + name);
+		System.out.println("Date of Birth: " + dob);
+		System.out.println("Age: " + years + " Years, " + months + " Months, " + days + " Days ");
+	}
+	public void olderOne(Person p) {
+		
+		System.out.println();
+	}
+	
+	
+}

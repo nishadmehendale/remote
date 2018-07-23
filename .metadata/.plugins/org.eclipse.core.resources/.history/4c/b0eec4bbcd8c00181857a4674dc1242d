@@ -1,0 +1,6 @@
+
+public class Country {
+	private static String countryName;
+	private double area;
+	private double population;
+}

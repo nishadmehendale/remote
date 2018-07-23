@@ -1,0 +1,34 @@
+import java.util.*;
+public class removeWord {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a sentence");
+		String sentence = sc.nextLine();
+		sentence = sentence.trim().replaceAll(" +", " ");
+		
+		System.out.println("Enter a word to be deleted");
+		String word = sc.nextLine();
+		
+		System.out.println("Enter position of the word to be deleted");
+		int position = sc.nextInt();
+		for(int i = 0; i< sentence.length(); i++)
+		{
+			if(sentence.charAt(i) == ' ') {
+				position -=1;
+				System.out.println("     "+position);
+				if (position == 1)
+				{
+					sentence.replaceFirst(word, "");
+				}
+
+			}
+			
+		}
+		
+		sentence = sentence.trim().replaceAll(" +", " ");
+		
+		System.out.println(sentence);
+	}
+
+}

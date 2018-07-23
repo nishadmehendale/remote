@@ -1,0 +1,12 @@
+
+public class TestGenerateEmployeeID {
+
+	public static void main(String[] args) {
+		GenerateEmployeeID employee = new GenerateEmployeeID();
+		int employeeID = employee.getEmployeeID();
+		System.out.println(employeeID);
+		employeeID = GenerateEmployeeID.getNextEmployeeID();
+		System.out.println(employeeID);
+	}
+
+}

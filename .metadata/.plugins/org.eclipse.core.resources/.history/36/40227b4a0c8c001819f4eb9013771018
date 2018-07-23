@@ -1,0 +1,22 @@
+
+public class testDistance {
+
+	public static void main(String[] args) {
+		Distance D1 = new Distance();
+		Distance D2 = new Distance();
+		Distance D3 = new Distance();
+		
+		D1.setFeet(4.5);
+		D1.setInches(5.5f);
+		System.out.println(D1);
+		
+		D2.setFeet(3.5);
+		D2.setInches(6.5f);
+		System.out.println(D2);
+		
+		D3= D1.addDistance(D1, D2);
+		System.out.println(D3);
+
+	}
+
+}

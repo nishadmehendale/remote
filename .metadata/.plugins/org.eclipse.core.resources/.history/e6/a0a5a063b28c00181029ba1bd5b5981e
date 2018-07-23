@@ -1,0 +1,41 @@
+
+public class Date {
+	private int d,m,y;
+	public Date(int d, int m, int y)
+	{
+		this.d = d;
+		this.m = m;
+		this.y = y;
+	}
+	@Override
+	public String toString() {
+		return "Date " + d + " / " + m +  " / " + y + "";
+	}
+	
+	public boolean isSmaller(Date d) {
+		if()
+			return true;
+		else
+			return false;
+	}
+	public int[] diff(Date d) {
+		int []date= new int[3];
+		if(this.y >= d.y)
+		{
+			date[2] = this.y - d.y;
+		}
+		else
+		{
+			date[2] = d.y - this.y;
+		}
+		if(this.m >= d.m)
+		{
+			date[1] = this.m - d.m;
+		}
+		else
+		{
+			date[1] = d.m - this.m;
+		}
+		return date;
+	}
+}

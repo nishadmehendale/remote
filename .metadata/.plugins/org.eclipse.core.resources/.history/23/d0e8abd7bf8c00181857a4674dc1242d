@@ -1,0 +1,26 @@
+
+
+public class Person {
+	private String name;
+	private Date dob;
+	
+	public Person(String n, int d, int m, int y)
+	{
+		name = n;
+		dob = new Date(y,m,d); 
+	}
+	public void display()
+	{
+		System.out.println("Name: " + name);
+		System.out.println("Date of Birth: " + dob);
+		Date d = new Date(2018,7,21);
+		int [] difference = dob.diff(d);
+		System.out.println("Age: " + dob.getY() + " Years, " + dob.getM() + " Months, " + dob.getY() + " Days ");
+	}
+	public void olderOne(Person p) {
+		
+		System.out.println();
+	}
+	
+	
+}
