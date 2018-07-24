@@ -8,14 +8,16 @@ public class Vehicle {
 	static double direction;
 	public Vehicle(){
 		currentIdentificationNumber =identificationNumber;
-		identificationNumber = identificationNumber - 1;
+		identificationNumber = identificationNumber + 1;
 	}
 	public Vehicle(String ownerName){                                     
 		currentIdentificationNumber =identificationNumber;
-		identificationNumber = identificationNumber - 1;
+		identificationNumber = identificationNumber + 1;
 		this.ownerName= ownerName ;
 	}
-	
+	public static int getHighestIdentificationNumber() {
+		return identificationNumber-1;
+	}
 	public int getCurrentSpeed() {
 		return currentSpeed;
 	}
@@ -34,14 +36,7 @@ public class Vehicle {
 	public void changeCurrentDirection(double changeDirection) {
 		this.currentDirection += changeDirection;
 	}
-	public static void TURN_RIGHT(double currentDirection) {
-		 direction = currentDirection - 90;
-		currentDirection = direction; 
-	}
-	public static void TURN_LEFT(double currentDirection) {
-		 direction = currentDirection + 90;
-		currentDirection = direction; 
-	}
+	
 	public String getOwnerName() {
 		return ownerName;
 	}

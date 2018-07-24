@@ -14,5 +14,6 @@ public class TestVehicle
 		vehicle[4] = new Vehicle("Ajit");
 		for(int i=0;i<5;i++)
 			System.out.println(vehicle[i]);
+		System.out.println(Vehicle.getHighestIdentificationNumber());
 	}
 }
