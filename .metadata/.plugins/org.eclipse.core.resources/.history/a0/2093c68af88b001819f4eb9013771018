@@ -1,9 +1,0 @@
-import java.util.Scanner;
-
-public class Television {
-
-	private static boolean state;
-	private int currentVolume;
-	private int currentChannel;
-	
-}

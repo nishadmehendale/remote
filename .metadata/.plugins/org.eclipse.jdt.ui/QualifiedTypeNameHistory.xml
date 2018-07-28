@@ -3,4 +3,10 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
+<fullyQualifiedTypeName name="Pack2.Org"/>
+<fullyQualifiedTypeName name="com.calculator.application.Calculator"/>
+<fullyQualifiedTypeName name="junit.framework.Assert"/>
+<fullyQualifiedTypeName name="org.junit.rules.ExpectedException"/>
+<fullyQualifiedTypeName name="org.junit.Rule"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
 </qualifiedTypeNameHistroy>
