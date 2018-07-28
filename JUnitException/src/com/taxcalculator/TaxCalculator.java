@@ -1,5 +1,5 @@
 package com.taxcalculator;
-
+//Class TaxCalulator that calculates tax based on employee salary
 public class TaxCalculator {
 	private String empName;
 	private double empSal;
@@ -12,6 +12,7 @@ public class TaxCalculator {
 		this.isIndian = isIndian;
 	}
 
+	//Mr
 	public double getTaxAmount()
 			throws EmployeeNameInvalidException, TaxNotEligibleException, CountryNotValidException {
 		double taxAmount = 0;
