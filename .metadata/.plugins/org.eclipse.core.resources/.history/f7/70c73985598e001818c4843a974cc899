@@ -1,7 +1,0 @@
-
-public class First {
-	private static int first = 1;
-	public First() {
-		System.out.println("First is "+first);
-	}
-}

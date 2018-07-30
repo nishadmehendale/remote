@@ -14,8 +14,10 @@ public class EntryPoint {
 		ArrayList arrl = BankCollection.listAll();
 		System.out.println(arrl);
 		
-		mmSavingAcc.withdraw(3000);
-		System.out.println(mmSavingAcc);
+		String str = mmBankController.presentAccountToView(201);
+		System.out.println(str);
+//		mmBankFactory.withdraw(3000);
+//		System.out.println(mmSavingAcc);
 		
 //		mmSavingAcc.withdraw(3000);
 //		System.out.println(mmSavingAcc);
