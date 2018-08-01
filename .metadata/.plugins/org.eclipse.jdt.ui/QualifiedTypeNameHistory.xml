@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="Pack2.Org"/>
 <fullyQualifiedTypeName name="com.calculator.application.Calculator"/>
@@ -12,4 +11,15 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="com.moneymoneybank.collection.MMBankController"/>
+<fullyQualifiedTypeName name="com.moneymoneybank.collection.BankAcc"/>
+<fullyQualifiedTypeName name="com.moneymoneybank.casestudythree.MMNewSaveAccEntryConsole"/>
+<fullyQualifiedTypeName name="com.moneymoneybank.casestudythree.NewSavingPojo"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.moneymoneybank.collection.BankCollection"/>
+<fullyQualifiedTypeName name="com.moneymoneybank.casestudythree.MMSavingAccReport1"/>
 </qualifiedTypeNameHistroy>
