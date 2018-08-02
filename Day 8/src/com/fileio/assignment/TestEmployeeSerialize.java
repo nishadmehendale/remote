@@ -10,7 +10,7 @@ public class TestEmployeeSerialize{
 		Employee employee = new Employee("Nishad",1001);
 		
 		try {
-			FileOutputStream fos = new FileOutputStream("emp.ser");
+			FileOutputStream fos = new FileOutputStream("emp.asdf");
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
 			oos.writeObject(employee);
 		} catch (IOException e) {

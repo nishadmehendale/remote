@@ -14,6 +14,6 @@ public class TestCar {
 	 treeset.add(new Car("Figo", 300000, 1990, "Ford")); 
 	 treeset.add(new Car("SX4", 200000, 1890, "Maruti Suzuki")); 
 	 treeset.stream().forEach((name) -> System.out.println(name)); 
-	  
+	 
 	 } 
 	 } 

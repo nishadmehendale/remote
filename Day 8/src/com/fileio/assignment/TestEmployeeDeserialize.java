@@ -11,7 +11,7 @@ public class TestEmployeeDeserialize {
 		Employee employee;
 		
 		try {
-			FileInputStream fis = new FileInputStream("emp.ser");
+			FileInputStream fis = new FileInputStream("emp.asdf");
 			ObjectInputStream ois = new ObjectInputStream(fis);
 			employee = (Employee) ois.readObject();
 			System.out.println(employee);
